@@ -35,5 +35,6 @@ function Pillar() {
   
   this.update = function() {
     this.x += this.velx;
+    this.velx -= 0.05;
   }
 }
