@@ -1,7 +1,7 @@
 var bird;
 var pillar = [];
 var score = 0;
-var framespeed = 30;
+var framespeed = 60;
 
 function setup() {
   createCanvas(500,600);
