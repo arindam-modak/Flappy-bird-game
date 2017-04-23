@@ -1,5 +1,5 @@
 function Pillar() {
-  this.velx = -5;
+  this.velx = -7;
   this.top = random(height/2);
   this.bottom = random(height/2);
   this.x = random(width-10,width);
@@ -35,6 +35,6 @@ function Pillar() {
   
   this.update = function() {
     this.x += this.velx;
-    this.velx -= 3;
+    //this.velx -= 3;
   }
 }
